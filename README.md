@@ -1,35 +1,60 @@
-# 🤖 WhatsApp Bot
+<h1 align="center">🤖 WhatsApp Financial Bot</h1>
 
-## 📌 Descrição
-Bot desenvolvido em Python com integração ao WhatsApp para controle financeiro, cálculo de combustível e envio de notícias personalizadas.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python">
+  <img src="https://img.shields.io/badge/Flask-Backend-black?logo=flask">
+  <img src="https://img.shields.io/badge/Twilio-WhatsApp-red?logo=twilio">
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow">
+</p>
+
+---
+
+## 📌 Sobre o Projeto
+
+Este projeto é um **Chatbot integrado ao WhatsApp**, desenvolvido em Python, com foco em **automação, controle financeiro e utilidade no dia a dia**.
+
+O sistema permite registrar entradas e saídas, calcular combustível e consultar notícias em tempo real, tudo diretamente pelo WhatsApp.
+
+---
 
 ## 🚀 Funcionalidades
-- Registro de entradas e saídas
-- Controle de saldo
-- Relatório financeiro automático
-- Calculadora de combustível (Gasolina vs Álcool)
-- Consulta de notícias por tema
 
-## 🛠️ Tecnologias
+- 💰 Controle financeiro (entradas e saídas)
+- 📊 Consulta de saldo
+- 📈 Relatório financeiro automático
+- ⛽ Cálculo inteligente de combustível (Gasolina vs Álcool)
+- 📰 Consulta de notícias por tema
+- 💾 Persistência de dados com JSON
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
 - Python
 - Flask
-- Twilio API
+- Twilio API (WhatsApp)
 - JSON
+- Requests (API de notícias)
 
-## ▶️ Como executar
+---
+
+## 🧠 Como Funciona
+
+O bot recebe mensagens via WhatsApp, processa os comandos com Python e retorna respostas automáticas com base na lógica implementada.
+
+---
+
+## ▶️ Como Executar
 
 ```bash
-pip install flask twilio requests
+# Clonar repositório
+git clone https://github.com/RenanLSouza/whatsapp-financial-bot.git
+
+# Entrar na pasta
+cd whatsapp-financial-bot
+
+# Instalar dependências
+pip install -r requirements.txt
+
+# Rodar o projeto
 python app.py
-```
-## 💡 Comandos
-
-- entrada 1000
-- saida 200
-- saldo
-- relatorio
-- combustivel 5.50 3.80
-- noticias tecnologia
-- noticias esportes
-- noticias economia
-
