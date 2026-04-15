@@ -24,12 +24,12 @@ python app.py
 ```
 ## 💡 Comandos
 
-entrada 1000
-saida 200
-saldo
-relatorio
-combustivel 5.50 3.80
-noticias tecnologia
-noticias esportes
-noticias economia
+- entrada 1000
+- saida 200
+- saldo
+- relatorio
+- combustivel 5.50 3.80
+- noticias tecnologia
+- noticias esportes
+- noticias economia
 
