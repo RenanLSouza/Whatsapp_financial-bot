@@ -1,0 +1,13 @@
+{
+    "saldo": 1952.5,
+    "transacoes": [
+        {
+            "tipo": "entrada",
+            "valor": 2000.0
+        },
+        {
+            "tipo": "saida",
+            "valor": 47.5
+        }
+    ]
+}
