@@ -58,3 +58,13 @@ pip install -r requirements.txt
 
 # Rodar o projeto
 python app.py
+```
+## 💡 Comandos Disponíveis
+- entrada 1000
+- saida 200
+- saldo
+- relatorio
+- combustivel 5.50 3.80
+- noticias tecnologia
+- noticias esportes
+
